@@ -1,0 +1,216 @@
+.hov_color_gray:hover {
+  color: gray;
+}
+.nav-item {
+  text-transform: capitalize;
+  padding: 0.6em;
+  font-weight: 500;
+  font-size: 17px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #333;
+}
+.nav-item ul {
+  position: absolute;
+  background-color: #f2f4f7;
+  min-width: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin: 0.9em 0 0 -0.5em;
+}
+
+/* service bar */
+
+.service_icon {
+  border: 1px solid transparent;
+}
+.service_icon:hover {
+  border: 1px solid #fff;
+}
+.service_icon a {
+  text-decoration: none;
+}
+.service_icon a img {
+  display: block;
+  height: 3em;
+  width: 50%;
+  margin: 0 auto;
+}
+.service_icon a p {
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  padding-top: 0.8em;
+  margin-bottom: 0;
+}
+/* promotion List */
+.promotion_menu ul li {
+  color: #666;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  width: 16%;
+  padding: 0.9em 1em;
+  text-align: center;
+}
+.promotion_menu ul li:hover,
+.active {
+  background-color: white;
+  color: #ed1c24 !important;
+}
+
+.panel {
+  min-height: 30rem;
+  padding-bottom: 3rem;
+}
+.panel a {
+  text-decoration: none;
+}
+.panel h5 {
+  color: #ed1c24;
+  font-weight: 700;
+  line-height: 29px;
+  font-size: 18px;
+}
+.panel p {
+  color: #666;
+  line-height: 29px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.panel-width {
+  width: 75%;
+  margin: 0 auto;
+}
+.card-meta {
+  margin-top: 10px;
+}
+.validtxt {
+  padding-bottom: 1em;
+}
+.validtxt label {
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.btn-buy,
+.btn-gift {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  padding: 6px 25px;
+  border: 1px solid;
+  border-radius: 1.1rem;
+}
+.btn-buy {
+  background-color: #ed1c24;
+  border-color: #ed1c24;
+  margin-right: 1em;
+}
+.btn-gift {
+  background-color: #777;
+  border-color: #777;
+}
+.btn-buy:hover {
+  background-color: #fff;
+  color: #ed1c24;
+}
+.btn-gift:hover {
+  background-color: #fff;
+  color: #777;
+}
+.pricetagcir {
+  position: absolute;
+  bottom: -45px;
+  right: -35px;
+  width: 140px;
+  height: 140px;
+  color: rgb(237, 28, 36);
+  background: rgb(237, 28, 36);
+  border-radius: 100%;
+}
+.pricetagcir .pttext {
+  position: relative;
+  bottom: -45px;
+  right: -18px;
+  width: 90px;
+  height: 30px;
+  text-align: right;
+  color: rgb(255, 255, 255);
+  padding-right: 10px;
+  font-size: 18px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-width: 0px;
+  border-style: solid;
+  border-color: red;
+  border-image: initial;
+  overflow: hidden;
+}
+
+/* ooredoo app */
+
+.ooredoo-app h4 {
+  color: #ed1c24;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+}
+.ooredoo-app p {
+  color: #777;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* service section "did not find what your looking" */
+.service-section h1 {
+  color: #707070;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 31px;
+}
+.service-section h5 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+/* social media icon */
+
+.service_icon li {
+}
+.social-icon li a img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+/* Details section */
+.detail {
+  font-family: noto_sansregular, Arial, Helvetica, sans-serif;
+}
+.detail ul {
+  padding-left: 0;
+  font-weight: 600;
+}
+.detail ul li a {
+  font-weight: 100;
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  line-height: 25px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #ed1c24;
+  height: 60px;
+}

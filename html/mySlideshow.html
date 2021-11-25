@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Dropdown Menu tutorial</title>
+    <script src="../js/all.js"></script>
+    <style>
+      .ul1 {
+        display: flex;
+        list-style-type: none;
+      }
+      .li {
+        display: inline-block;
+        position: relative;
+      }
+      .li a {
+        color: #fff;
+        display: inline;
+        font-size: 14px;
+        padding: 15px 14px;
+        transition: 0.3s linear;
+      }
+      .ul {
+        /* border-bottom: 5px solid #2ba0db; */
+        display: none;
+        position: relative;
+        width: 250px;
+        list-style-type: none;
+        background-color: #333;
+      }
+      .li a,
+      .ul li a {
+        text-decoration: none;
+        color: white;
+        background-color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul class="ul1">
+        <li class="li">
+          <a href="#">Categories<i class="fa fa-angle-down"></i></a>
+          <ul class="ul">
+            <li><a href="#">Category One</a></li>
+            <li><a href="#">Category Two</a></li>
+            <li><a href="#">Category Three</a></li>
+          </ul>
+        </li>
+        <li class="li">
+          <a href="#">Categories<i class="fa fa-angle-down"></i></a>
+          <ul class="ul">
+            <li><a href="#">Category One</a></li>
+            <li><a href="#">Category Two</a></li>
+            <li><a href="#">Category Three</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <script src="../js/jquery.js"></script>
+    <script>
+      $(".li").hover(
+        function () {
+          $("ul", this).stop().slideDown(200);
+        },
+        function () {
+          $("ul", this).stop().slideUp(200);
+        }
+      );
+    </script>
+  </body>
+</html>
