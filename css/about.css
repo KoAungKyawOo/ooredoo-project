@@ -1,0 +1,46 @@
+.hero-section {
+  position: relative;
+}
+.hero-img img {
+  width: 1481px;
+  height: 375px;
+}
+.hero-txt {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.accordion-button h5:not(.collapsed) {
+  color: #ed2c24;
+}
+.accordion-button p:not(.collapsed) {
+  color: #333;
+}
+
+.listarrow-left li {
+  background: url(../images/img/right-arrow.png) left center no-repeat;
+  padding-left: 20px;
+  background-position-y: 3px;
+  list-style: none;
+  margin: 10px 0;
+  line-height: normal;
+}
+
+/* community button */
+.about-community {
+  border: 1px solid #ed2c24;
+  border-radius: 1em;
+  padding: 5px 25px;
+  color: #ed2c24;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.about-community:hover {
+  background-color: #ed2c24;
+  color: #fff;
+}

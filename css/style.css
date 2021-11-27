@@ -1,6 +1,40 @@
-.hov_color_gray:hover {
-  color: gray;
+/* main-menu */
+
+.main-menu:hover {
+  color: #ed1c24;
+  /* font-size: 30px; */
 }
+/* nav section */
+/* nav logo */
+
+.icons {
+  padding: 0.4em 2em;
+}
+.logo img {
+  margin: 5px 0;
+  width: 200px;
+  height: 40px;
+}
+
+/* nav dropdown */
+
+.ul {
+  display: none;
+}
+.ul div li {
+  display: block;
+}
+.ul div div li a {
+  display: block;
+}
+.ul div div li a:hover,
+.nav-item a:hover {
+  color: #ed1c24;
+}
+.ul h5 {
+  color: #ed1c24;
+}
+
 .nav-item {
   text-transform: capitalize;
   padding: 0.6em;
@@ -57,11 +91,6 @@
   width: 16%;
   padding: 0.9em 1em;
   text-align: center;
-}
-.promotion_menu ul li:hover,
-.active {
-  background-color: white;
-  color: #ed1c24 !important;
 }
 
 .panel {
@@ -184,8 +213,6 @@
 
 /* social media icon */
 
-.service_icon li {
-}
 .social-icon li a img {
   width: 40px;
   height: 40px;
@@ -200,6 +227,9 @@
   padding-left: 0;
   font-weight: 600;
 }
+.detail h4 {
+  text-transform: capitalize;
+}
 .detail ul li a {
   font-weight: 100;
   text-decoration: none;
@@ -213,4 +243,8 @@
 footer {
   background-color: #ed1c24;
   height: 60px;
+}
+
+.text-ooredoo {
+  color: #ed1c24;
 }

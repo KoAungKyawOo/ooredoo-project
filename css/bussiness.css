@@ -1,0 +1,44 @@
+.bussiness_promotion_menu li {
+  width: 358px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35px;
+  color: #fff;
+  background-color: #e20710;
+  padding: 25px;
+}
+.bussiness_promotion_menu li {
+  cursor: pointer;
+}
+
+.post {
+  border-radius: 1em;
+  text-align: center;
+}
+.post h4 {
+  color: #000;
+  font-weight: 500;
+}
+.post p {
+  color: #000;
+  font-weight: 400;
+}
+.post img {
+  width: 100%;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+/* Careers conternt */
+
+.careers-txt {
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  width: 52%;
+  bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}

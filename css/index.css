@@ -1,0 +1,5 @@
+.promotion_menu ul li:hover,
+.active {
+  background-color: white;
+  color: #ed1c24 !important;
+}

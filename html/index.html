@@ -8,49 +8,34 @@
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/bootstrap.css" />
     <link rel="stylesheet" href="../css/style.css" />
-
-    <script src="../js/bootstrap.js"></script>
-    <script src="../js/jquery.js"></script>
-    <script src="../js/all.js"></script>
-
-    <style>
-      .icons {
-        padding: 0.4em 2em;
-      }
-      .logo img {
-        margin: 5px 0;
-        width: 200px;
-        height: 40px;
-      }
-      .ul {
-        display: none;
-      }
-      .ul div li {
-        display: block;
-      }
-      .ul div div li a {
-        display: block;
-      }
-      .ul div div li a:hover,
-      .nav-item a:hover {
-        color: #ed1c24;
-      }
-      /* slideshow */
-    </style>
+    <link rel="stylesheet" href="../css/index.css" />
   </head>
   <body>
-    <div class="bg-black" style="height: 2.5em">
+    <div class="bg-black" style="height: 2em">
       <div class="container d-flex">
         <div class="text-uppercase col-md-6">
           <ul class="d-flex">
             <li class="p-2 bg-white">
-              <a href="#" class="text-decoration-none text-black">personal</a>
+              <a
+                href="index.html"
+                class="text-decoration-none"
+                style="color: #ed1c24"
+                >personal</a
+              >
             </li>
             <li class="p-2">
-              <a href="#" class="text-decoration-none text-white">business</a>
+              <a
+                href="bussiness.html"
+                class="text-decoration-none text-white main-menu"
+                >business</a
+              >
             </li>
             <li class="p-2">
-              <a href="#" class="text-decoration-none text-white">about us</a>
+              <a
+                href="about.html"
+                class="text-decoration-none text-white main-menu"
+                >about us</a
+              >
             </li>
           </ul>
         </div>
@@ -866,31 +851,9 @@
       <p class="text-white align-self-end">© 2019 - All Rights with Ooredoo</p>
     </footer>
 
-    <script>
-      // Dropdown
-      $(".nav-item").hover(
-        function () {
-          $("ul", this).stop().slideDown();
-        },
-        function () {
-          $("ul", this).stop().slideUp();
-        }
-      );
-      // Promotion section
-      var tabs = document.getElementsByClassName("tab");
-      var panels = document.getElementsByClassName("panel");
-      var i;
-      clickTab(0);
-      function clickTab(n) {
-        for (i = 0; i < panels.length; i++) {
-          panels[i].style.display = "none";
-        }
-        for (i = 0; i < tabs.length; i++) {
-          tabs[i].className = tabs[i].className.replace(" active", "");
-        }
-        panels[n].style.display = "block";
-        tabs[n].className += " active";
-      }
-    </script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/all.js"></script>
+    <script src="../js/index.js"></script>
   </body>
 </html>
